@@ -29,7 +29,7 @@ int main()
         }
         else
         {
-            sum = pre[r] - pre[l-1]; git 
+            sum = pre[r] - pre[l-1]; 
         }
         cout << sum << endl;
 
