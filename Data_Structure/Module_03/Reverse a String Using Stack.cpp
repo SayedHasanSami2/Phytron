@@ -7,13 +7,13 @@ string ReverseString(string str)
     stack<char> s;
 
     // Step 1: Push all characters into the stack
-    for (int i = 0; i<str.length(); i++)
+    for (size_t i = 0; i < str.length(); i++)
     {
         s.push(str[i]);
     }
 
     // Step 2: Pop characters and store back into the string
-    for (int i = 0; i<str.length(); i++)
+    for (size_t i = 0; i < str.length(); i++)
     {
         str[i] = s.top();
         s.pop();
