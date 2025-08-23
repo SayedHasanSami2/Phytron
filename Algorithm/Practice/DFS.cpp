@@ -9,7 +9,7 @@ void dfs(int src)
     visited[src] = true;
     for(int child : adj_list[src])
     {
-        if(!visited[child])
+        if(!visited[child]) 
         {
             dfs(child);
         }
